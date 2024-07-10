@@ -9,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 
 # Create the path to the dataset and set dataframe to the data
-path_to_file = "C:/Users/Cudlino/Documents/CUW/Summer 2024 Courses/Machine Learning/Unit 2/CSC 419 HW 2 Transaction Data.csv"
+path_to_file = "../CSC 419 HW 2 Transaction Data.csv"
 df = pd.read_csv(path_to_file)
 
 # Visualize the data using Matplotlib
